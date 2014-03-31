@@ -14,6 +14,6 @@
 #   bsiegel
 
 module.exports = (robot) ->
-  robot.hear /ants/i, (msg)->
+  robot.hear /\bants\b/i, (msg)->
     msg.send 'https://s3.amazonaws.com/uploads.hipchat.com/14158/50237/GpduEryjIgVnZgO/upload.png'
 
