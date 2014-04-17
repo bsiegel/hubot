@@ -1,1 +1,1 @@
-web: bin/hubot -a hipchat
+web: node_modules/.bin/forever -c bin/hubot "" -a hipchat
